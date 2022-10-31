@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>璃落牌不倒翁</title>
+    <link rel="stylesheet" href="document.css">
+</head>
+<body>
+    <div class="app">
+        <canvas></canvas>
+        <div class="single-box">
+            <div class="main"></div>
+            <div class="bed"></div>
+        </div>
+    </div>
+    <div class="ctrl-box">
+        <a class="set-orientation-link" onclick="setOrientationListener()">陀螺仪</a>
+        <a class="set-voice" onclick="toggleVoiceMute()">静音</a>
+        <a class="trigger-magic-link" onclick="triggerMagic()"></a>
+    </div>
+    <footer>
+        <a href="https://github.com/itorr/sakana" target="_blank">原出处</a>
+    </footer>
+    <!-- <pre id="out"></pre> -->
+    <script src="document.js"></script>
+    <div style="display:none">
+        <img src="chisato.png">
+    </div>
+</body>
+</html>

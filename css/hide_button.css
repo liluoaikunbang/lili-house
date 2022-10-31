@@ -1,0 +1,4 @@
+/*让主题自带的隐藏按钮点击后不消失的修改*/ 
+.hide-block>a.hide-button.open, .hide-inline>a.hide-button.open {
+    display: inline-block;
+}
